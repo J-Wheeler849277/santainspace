@@ -6,7 +6,7 @@ its about drive its about power we stay hungry we devour put in the work put in 
 - L Bozo + Ratio <3
 - Lol you heard of deez?
 - document by Isaac De Snuts
-- add harry's snap Harry_fletch04 for free food
+- add harry's snap Harry_fletch04 for free lewd loli body pillows
 
 
 
