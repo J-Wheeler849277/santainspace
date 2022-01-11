@@ -37,4 +37,4 @@ document by Isaac De Snuts
 
 
 
-- ❤ Oli Was Ere ❤
+- ❤ Oli Was Ere ❤ - dont care + didnt ask + cope
