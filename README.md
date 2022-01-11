@@ -9,32 +9,4 @@ document by Isaac De
 add harry's snap Harry_fletch04 for free 6 hour anal sessions
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- ❤ Oli Was Ere ❤ - dont care + didnt ask + cope
+- ❤ Oli Was Ere ❤ - do care + i asked + love u
