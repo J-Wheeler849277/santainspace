@@ -11,3 +11,5 @@ class Bullet:
     def update(self):
         self.x -= math.cos(self.direction)
         self.y -= math.sin(self.direction) 
+        
+# Oli was here :)
