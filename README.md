@@ -6,3 +6,35 @@ I hate this.
 L Bozo + Ratio <3
 Lol you heard of deez?
 document by Isaac De Snuts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- ❤ Oli Was Ere ❤
