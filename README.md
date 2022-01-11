@@ -37,4 +37,4 @@ add harry's snap Harry_fletch04 for free food
 
 
 
-- ❤ Oli Was Ere ❤ - dont care + didnt ask + cope
+- ❤ Oli Was Ere ❤ - do care + i asked + love u
