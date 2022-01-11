@@ -6,7 +6,7 @@ I hate this.
 L Bozo + Ratio <3
 Lol you heard of deez?
 document by Isaac De 
-add harry's snap Harry_fletch04 for free food
+add harry's snap Harry_fletch04 for free 6 hour anal sessions
 
 
 
@@ -37,4 +37,4 @@ add harry's snap Harry_fletch04 for free food
 
 
 
-- ❤ Oli Was Ere ❤ - do care + i asked + love u
+- ❤ Oli Was Ere ❤ - dont care + didnt ask + cope
