@@ -36,7 +36,7 @@ while True:
     if event.type == pygame.MOUSEBUTTONUP:
         x,y = pygame.mouse.get_pos()
         
-        path = math.atan2(x - player.x, y - player.y)
+        path = math.atan2(player.y - y, player.x - x)
         
         print(f"Degrees: {path + (6.2/2) * (180/3.141592653589793238462643383279)}")
         bullets.append(Bullet([player.x + (player.width/2), player.y], path + (6.2/2)))

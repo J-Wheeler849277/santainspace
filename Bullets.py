@@ -10,5 +10,5 @@ class Bullet:
         self.RGB = [random.randint(15, 255), random.randint(15, 255), random.randint(15, 255)]
 
     def update(self):
-        self.x -= math.cos(self.path) * 4
-        self.y -= math.sin(self.path) * 4
+        self.x += math.cos(self.path) * 4
+        self.y += math.sin(self.path) * 4
