@@ -15,7 +15,7 @@
      - [Inline comments](TLEVEL-2021-22-CodingStandards.md#inline-comments)<br />
      - [Block Comments](TLEVEL-2021-22-CodingStandards.md#block-comments)<br />
    - [Naming styles](TLEVEL-2021-22-CodingStandards.md#naming-styles)<br />
-   - [Names to Avoid.](TLEVEL-2021-22-CodingStandards.md#names-to-avoid.)<br />
+   - [Names to Avoid.](TLEVEL-2021-22-CodingStandards.md#names-to-avoid)<br />
    - [Strings quote](TLEVEL-2021-22-CodingStandards.md#strings-quote)<br />
 4. [Defensive Programming](TLEVEL-2021-22-CodingStandards.md#defensive-programming)<br />
    - [Implementing defensive programming](TLEVEL-2021-22-CodingStandards.md#implementing-defensive-programming)<br />
