@@ -2,8 +2,8 @@
 *T level students 2020/2021*<br />
 
 **Contents**<br />
-[Introduction]()
-[Clean Code]()
+[Introduction](TLEVEL-2021-22-CodingStandards.md#introduction)<br />
+[Clean Code]()<br />
 
 ## Signatures
 [Signatures are located here](standards-signatures.md)
