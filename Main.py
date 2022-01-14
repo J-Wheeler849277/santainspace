@@ -38,6 +38,10 @@ def user_note():
 user_note()
 
 while True:
+    if player.x < 0:
+        player.x= 0
+    if player.x > 500:
+        player.x= 500
     key = pygame.key.get_pressed()
 
     for event in pygame.event.get():        
