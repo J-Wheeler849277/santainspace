@@ -1,6 +1,6 @@
 # Code Standards Signatures
 **USE THIS TO SIGN THE CODE STANDARDS**
-*Please only replace the dotted line next to your name with this Format:*
+*Please only replace the dotted line next to your name with this format:*
 *Signed DD/MM/YYYY*
 
 ## Signatures
@@ -17,7 +17,7 @@
 
 - Harry Fletcher - ………………
 
-- Ryan Gray - ………………
+- Ryan Gray - Signed 14/01/2022
 
 - Jake Grice - ………………
 
