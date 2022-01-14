@@ -47,7 +47,7 @@ The comment above is unnecessary and redundant.<br />
 
 -**Position makers comments**
 Some programmers use comments like the one below to mark a position in the source code or to gather a group of function together. They are unnecessary and should not be used; they make the source code destructed while it needs to be one piece of code that can be read like a poem.<br />
-<img src="/image-assests/Poem.png" alt="" data-canonical-src="/image-assests/Poem.png" width="167" height="44" />
+<img src="/image-assests/Poem.png" alt="" data-canonical-src="/image-assests/Poem.png" width="251" height="66" />
 
 
 ## Conventions and style guide
