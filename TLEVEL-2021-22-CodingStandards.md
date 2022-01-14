@@ -8,6 +8,10 @@
    - [What is a clean code?](TLEVEL-2021-22-CodingStandards.md#what-is-a-clean-code)<br />
    - [Smells of bad code](TLEVEL-2021-22-CodingStandards.md#smells-of-bad-code)<br />
 3. [Conventions and style guide](TLEVEL-2021-22-CodingStandards.md#conventions-and-style-guide)<br />
+   - [Indentation](TLEVEL-2021-22-CodingStandards.md#indentation)<br />
+   - [Maximum line length](TLEVEL-2021-22-CodingStandards.md#maximum-line-length)<br />
+   - [Comments](TLEVEL-2021-22-CodingStandards.md#comments)<br />
+     - [Do not use a comment when you can use a function or a variable.](TLEVEL-2021-22-CodingStandards.md#do-not-use-a-comment-when-you-can-use-a-function-or-a-variable.)<br />
 4. [Defensive Programming](TLEVEL-2021-22-CodingStandards.md#defensive-programming)<br />
 
 ## Signatures
