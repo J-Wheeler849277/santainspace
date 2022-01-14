@@ -3,7 +3,7 @@ from Player import Player
 from Bullets import Bullet
 from Enemies import Enemy
 import math
-
+################################### mohamad made this ####################
 pygame.init()
 pygame.font.init()
 
@@ -14,7 +14,7 @@ pygame.display.set_caption("Santa In Space - by TL1A")
 
 #pygame.image.load("Example.GIF")d
 #screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
-
+###################### mohamad made this ################################
 white = (255, 255, 255)
 #green = (0, 255, 0)
 green = (110, 254, 23)
