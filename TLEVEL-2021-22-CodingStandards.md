@@ -36,10 +36,11 @@ Here are some very well-known and deeply experienced programmers thought.
 > Clean code can be read and enhanced by a developer other than its original author. It has unit and acceptance tests. It has meaningful names. It provides one way rather than many ways of doing one thing. It has minimal dependencies, which are explicitly defined, and provides a clear and minimal API. Code should be literate since depending on the language, not all necessary information can be expressed clearly in code alone.
 
 ### Smells of bad code.
-Here are some smells that if you see in a code, you can tell that it’s a bad code. 
+Here are some smells that if you see in a code, you can tell that it’s a bad code.<br />
 -**Redundant comments,** which comments which explain something obvious. You are writing code twice and forcing developers to read the code twice.  For example, this is a redundant comment:<br /> 
- `print("Final cost:" + total_cost) #Print final cost`
+ `print("Final cost:" + total_cost) #Print final cost`<br />
 The comment above is unnecessary and redundant.
+![Example](/image-assests/Wood.jpg)
 
 
 ## Conventions and style guide
