@@ -3,7 +3,7 @@
 
 **Contents**<br />
 [Introduction](TLEVEL-2021-22-CodingStandards.md#introduction)<br />
-[Clean Code](TLEVEL-2021-22-CodingStandards.md#clean code)<br />
+[Clean Code](TLEVEL-2021-22-CodingStandards.md#clean-code)<br />
 
 ## Signatures
 [Signatures are located here](standards-signatures.md)
