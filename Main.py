@@ -10,7 +10,7 @@ pygame.font.init()
 clock = pygame.time.Clock()
 size = width, height = 600, 600
 screen = pygame.display.set_mode(size)
-pygame.display.set_caption("SantaInSpace")
+pygame.display.set_caption("Santa In Space - by TL1A")
 
 #pygame.image.load("Example.GIF")d
 #screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
