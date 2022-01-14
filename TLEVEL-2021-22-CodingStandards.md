@@ -98,14 +98,49 @@ def isAdultMale(age, gender):
 if isAdultMale(user_age, gender):
    print("An adult male")
 ```
+
 #### Inline comments
 An inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement. They should start with a # and a single space.<br />
-Inline comments are unnecessary and in fact, distracting if they state the obvious. Do not do this:
+Inline comments are unnecessary and in fact, distracting if they state the obvious.<br />
+Do not do this:
+`x = x + 1                          # Increment x`
 
 #### Block Comments
+Block comments generally apply to some (or all) code that follows them and are indented to the same level as that code. Each line of a block comment starts with a # and a single space (unless it is indented text inside the comment).<br />
+Paragraphs inside a block comment are separated by a line containing a single #.
+
 ### Naming styles
+There are different styles for writing names for variables, functions, and variables. You should use these each time you name something.
+
+- Camel case: “myCar” (use it for functions names)
+- Snake case: “my_car” (use it for variables names)
+- Pascal case: “MyCar” (use it for classes names)
+
+If a variable is going to store a boolean it should be started with “is_”. For example: “is_adult”.<br />
+**Note:** Follow the naming conventions of the files you work on when you work on old files. Please keep the naming consistent.
+
 ### Names to Avoid
+Never use the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), or 'I' (uppercase letter eye) as single-character variable names.
+
+In some fonts, these characters are indistinguishable from the numerals one and zero. When tempted to use 'l', use 'L' instead.
+
 ### Strings quote
+A string should be contained with double quotes (“). A substring (a string inside a string) should be contained in a single quote (‘),
 
 ## Defensive Programming
+Defensive programming is the practice of writing software to enable continuous operation after and while experiencing unplanned issues. Defensive programming practices are often used where high availability, safety, or security is needed.
+
+Defensive programming is an approach to improve software and source code.
+
+When firmware knows there is an issue, and it likely knows what the issue is, but yet it doesn’t help solve the issue. The software was built with “Defensive Programming” practices in mind, which allows for the firmware to keep running even when incorrect behaviour occurs.
+
 ### Implementing defensive programming
+- **Asserts** – keyword used when debugging code. The assert keyword lets you test if a condition in your code returns True, if not, the program will raise an Assertion Error.
+<img src="/image-assests/Asserts.png" alt="" data-canonical-src="/image-assests/Asserts.png" width="291" height="172" />
+
+- **Logging** – normally a log file that records events whilst the software is running.
+<img src="/image-assests/Logging.png" alt="" data-canonical-src="/image-assests/Logging.png" width="219" height="188" />
+
+- **Unit testing** – testing an individual unit or component functionality.
+
+Python comes with the tools and libraries that support automated testing for your system.
