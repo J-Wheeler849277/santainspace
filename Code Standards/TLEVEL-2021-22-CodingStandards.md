@@ -11,7 +11,7 @@
    - [Indentation](TLEVEL-2021-22-CodingStandards.md#indentation)<br />
    - [Maximum line length](TLEVEL-2021-22-CodingStandards.md#maximum-line-length)<br />
    - [Comments](TLEVEL-2021-22-CodingStandards.md#comments)<br />
-     - [Do not use a comment when you can use a function or a variable.](TLEVEL-2021-22-CodingStandards.md#do-not-use-a-comment-when-you-can-use-a-function-or-a-variable.)<br />
+     - [Do not use a comment when you can use a function or a variable.](TLEVEL-2021-22-CodingStandards.md#do-not-use-a-comment-when-you-can-use-a-function-or-a-variable)<br />
      - [Inline comments](TLEVEL-2021-22-CodingStandards.md#inline-comments)<br />
      - [Block Comments](TLEVEL-2021-22-CodingStandards.md#block-comments)<br />
    - [Naming styles](TLEVEL-2021-22-CodingStandards.md#naming-styles)<br />
