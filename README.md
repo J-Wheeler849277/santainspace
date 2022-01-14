@@ -1,2 +1,2 @@
 # Santa In Space
-its about drive its about power we stay hungry we devour put in the work put in the hours and take whats ours
+Santa In Space is about santa who is in space in order to deliver presents to the people earth banished to mars. on the way there isreal just so happened to line up with his position in space causing santa to be in the middle of the iron dome. help santa dodge and destroy incoming SSMs (Surface to Space Missiles) and IPBMs (Inter-Planetary Ballistic Missiles) in order to reach mars. santa's sleigh also has a brand new technology that can convert nuclear waste into childrens toys so the more missiles you destroy the more enriched uranium is delivered to the children of mars.

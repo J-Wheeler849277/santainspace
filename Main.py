@@ -84,8 +84,7 @@ while True:
     pygame.draw.rect(screen, (R,G,B), (player.x,player.y, player.width, player.width))
 
     GAME_SCORE = FONT.render(str(f"Score: {score}"), True, green)
-    while True:
-        print("I smell lol")
+ 
     print(f"Game Score: {score}")
 
 
@@ -93,3 +92,4 @@ while True:
 
     clock.tick(120)
     pygame.display.update() 
+    print("good job")#eniola made this change#
