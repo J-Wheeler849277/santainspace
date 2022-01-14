@@ -40,7 +40,7 @@ Here are some smells that if you see in a code, you can tell that it’s a bad c
 -**Redundant comments,** which comments which explain something obvious. You are writing code twice and forcing developers to read the code twice.  For example, this is a redundant comment:<br /> 
  `print("Final cost:" + total_cost) #Print final cost`<br />
 The comment above is unnecessary and redundant.
-![Example](/image-assests/Wood.jpg)
+![Example](/image-assests/Wood.jpg width=183 height=233)
 
 
 ## Conventions and style guide
