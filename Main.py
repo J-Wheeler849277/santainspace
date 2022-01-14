@@ -12,7 +12,7 @@ size = width, height = 600, 600
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Santa In Space - by TL1A")
 
-#pygame.image.load("Example.gif")d
+#pygame.image.load("Example.GIF")d
 #screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
 
 white = (255, 255, 255)
@@ -106,3 +106,4 @@ while True:
     screen.blit(ENEMY_LIVES, (375, 0))
     clock.tick(120)
     pygame.display.update() 
+    print("good job")#eniola made this change#
