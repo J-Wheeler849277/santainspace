@@ -42,8 +42,12 @@ Here are some very well-known and deeply experienced programmers thought.
 Here are some smells that if you see in a code, you can tell that it’s a bad code.<br />
 -**Redundant comments,** which comments which explain something obvious. You are writing code twice and forcing developers to read the code twice.  For example, this is a redundant comment:<br /> 
  `print("Final cost:" + total_cost) #Print final cost`<br />
-The comment above is unnecessary and redundant.
+The comment above is unnecessary and redundant.<br />
 <img src="/image-assests/Wood.jpg" alt="" data-canonical-src="/image-assests/Wood.jpg" width="183" height="233" />
+
+-**Position makers comments**
+Some programmers use comments like the one below to mark a position in the source code or to gather a group of function together. They are unnecessary and should not be used; they make the source code destructed while it needs to be one piece of code that can be read like a poem.<br />
+<img src="/image-assests/Poem.png" alt="" data-canonical-src="/image-assests/Poem.png" width="167" height="44" />
 
 
 ## Conventions and style guide
