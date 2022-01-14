@@ -40,17 +40,20 @@ Here are some very well-known and deeply experienced programmers thought.
 
 ### Smells of bad code.
 Here are some smells that if you see in a code, you can tell that it’s a bad code.<br />
--**Redundant comments,** which comments which explain something obvious. You are writing code twice and forcing developers to read the code twice.  For example, this is a redundant comment:<br /> 
+- **Redundant comments,** which comments which explain something obvious. You are writing code twice and forcing developers to read the code twice.  For example, this is a redundant comment:<br /> 
  `print("Final cost:" + total_cost) #Print final cost`<br />
 The comment above is unnecessary and redundant.<br />
 <img src="/image-assests/Wood.jpg" alt="" data-canonical-src="/image-assests/Wood.jpg" width="183" height="233" />
 
--**Position makers comments**
+- **Position makers comments**
 Some programmers use comments like the one below to mark a position in the source code or to gather a group of function together. They are unnecessary and should not be used; they make the source code destructed while it needs to be one piece of code that can be read like a poem.<br />
 <img src="/image-assests/Poem.png" alt="" data-canonical-src="/image-assests/Poem.png" width="251" height="66" />
 
+- **Commented-out code**
+Commented out code decreases the readability of the code. Other programmers who work on the same program will have to read it even if it does not do anything in the program. It is ok to comment code temporarily to test and debug the program, but do not leave commented code in the source file.
 
 ## Conventions and style guide
+This is a fork of PEP 8 -- Style Guide for Python Code. If anything is not mentioned here please refer to the pep document:<br />https://www.python.org/dev/peps/pep-0008/
 ### Indentation
 ### Maximum line length
 ### Comments
