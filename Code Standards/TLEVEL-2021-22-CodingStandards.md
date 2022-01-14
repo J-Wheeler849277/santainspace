@@ -55,11 +55,11 @@ Here are some smells that if you see in a code, you can tell that it’s a bad c
 The comment above is unnecessary and redundant.<br />
 <img src="/image-assests/Wood.jpg" alt="" data-canonical-src="/image-assests/Wood.jpg" width="183" height="233" />
 
-- **Position makers comments**
+- **Position makers comments**<br />
 Some programmers use comments like the one below to mark a position in the source code or to gather a group of function together. They are unnecessary and should not be used; they make the source code destructed while it needs to be one piece of code that can be read like a poem.<br />
 <img src="/image-assests/Poem.png" alt="" data-canonical-src="/image-assests/Poem.png" width="251" height="66" />
 
-- **Commented-out code**
+- **Commented-out code**<br />
 Commented out code decreases the readability of the code. Other programmers who work on the same program will have to read it even if it does not do anything in the program. It is ok to comment code temporarily to test and debug the program, but do not leave commented code in the source file.
 
 ## Conventions and style guide
