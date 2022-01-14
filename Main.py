@@ -11,16 +11,11 @@ size = width, height = 600, 600
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("SantaInSpace")
 
-<<<<<<< HEAD
 # pygame.image.load("Example.GIF")d
 # screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
-=======
-#pygame.image.load("Example.GIF")
-#screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
->>>>>>> 749f146a596b61f6bc386faecf44cf8488c99fa7
 
 
-R, G, B = 255, 0, 0
+R, G, B = 0, 0, 255
 x, y = 100, 100
 
 player = Player([0, 0])
@@ -31,21 +26,26 @@ gun_timer = 0
 
 score = 0
 
+
 def user_note():
     """NOTE TO USER: Put your name into "name" variable - Patrick"""
-    
-    name = "Hugh Janus"
+
+    name = "Jai"
     print(f"Tested by {name}")
-    print("Changes & recommendations: \
-                            ")
+    print(
+        "Changes & recommendations: \
+                            "
+    )
 
 
 user_note()
 
 while True:
-    player.y=500
-    if player.x < 0: player.x= 0
-    if player.x > 500: player.x= 500
+    player.y = 500
+    if player.x < 0:
+        player.x = 0
+    if player.x > 500:
+        player.x = 500
     key = pygame.key.get_pressed()
 
     for event in pygame.event.get():
@@ -60,14 +60,12 @@ while True:
 
     player.update(key)
     gun_timer += 1
-    if key[pygame.MOUSEBUTTONUP] and gun_timer > 4:
+    if event.type == pygame.MOUSEBUTTONDOWN and gun_timer > 5:
         gun_timer = 0
 
         x, y = pygame.mouse.get_pos()
-        path = math.atan2(player.y - y, player.x - x)
-        bullets.append(
-            Bullet([player.x + (player.width / 2), player.y], path + (6.2 / 2))
-        )
+        path = math.atan2(player.y - y, player.x - x + 45)
+        bullets.append(Bullet([player.x + (player.width / 2), player.y], path + 3.1))
     enemies_active = []
     for i in enemies:
         pygame.draw.rect(screen, (255, 255, 255), (i.x, i.y, i.width, i.height))
