@@ -1,7 +1,7 @@
 # Code Standards Signatures
 **USE THIS TO SIGN THE CODE STANDARDS**<br />
 *Please only replace the dotted line next to your name with this format:*<br />
-*Signed DD/MM/YYYY*<br />
+`Signed DD/MM/YYYY`
 
 ## Signatures
 
