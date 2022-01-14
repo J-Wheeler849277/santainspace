@@ -11,13 +11,8 @@ size = width, height = 600, 600
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("SantaInSpace")
 
-<<<<<<< HEAD
 # pygame.image.load("Example.GIF")d
 # screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
-=======
-#pygame.image.load("Example.GIF")
-#screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
->>>>>>> 749f146a596b61f6bc386faecf44cf8488c99fa7
 
 
 R, G, B = 255, 0, 0
