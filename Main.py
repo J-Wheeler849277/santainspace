@@ -31,7 +31,7 @@ enemies = []
 gun_timer = 0
 
 score = 0
-
+print("kevin was here") #kevin made this#
 
 def user_note():
     """NOTE TO USER: Put your name into "name" variable - Patrick"""
