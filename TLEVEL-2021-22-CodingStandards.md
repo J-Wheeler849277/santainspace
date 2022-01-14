@@ -41,6 +41,7 @@ Here are some smells that if you see in a code, you can tell that it’s a bad c
  `print("Final cost:" + total_cost) #Print final cost`<br />
 The comment above is unnecessary and redundant.
 ![Example](/image-assests/Wood.jpg width="183" height="233")
+<img src="/image-assests/Wood.jpg" alt="" data-canonical-src="/image-assests/Wood.jpg" width="183" height="233" />
 
 
 ## Conventions and style guide
