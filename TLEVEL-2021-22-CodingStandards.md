@@ -5,8 +5,10 @@
 1. [Introduction](TLEVEL-2021-22-CodingStandards.md#introduction)<br />
 2. [Clean Code](TLEVEL-2021-22-CodingStandards.md#clean-code)<br />
    - [Implications of having a bad code](TLEVEL-2021-22-CodingStandards.md#implications-of-having-a-bad-code)<br />
-[Conventions and style guide](TLEVEL-2021-22-CodingStandards.md#conventions-and-style-guide)<br />
-[Defensive Programming](TLEVEL-2021-22-CodingStandards.md#defensive-programming)<br />
+   - [What is a clean code?](TLEVEL-2021-22-CodingStandards.md#what-is-a-clean-code)<br />
+   - [Smells of bad code](TLEVEL-2021-22-CodingStandards.md#smells-of-bad-code)<br />
+3. [Conventions and style guide](TLEVEL-2021-22-CodingStandards.md#conventions-and-style-guide)<br />
+4. [Defensive Programming](TLEVEL-2021-22-CodingStandards.md#defensive-programming)<br />
 
 ## Signatures
 [Signatures are located here](standards-signatures.md)
