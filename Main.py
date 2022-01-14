@@ -5,6 +5,7 @@ from Enemies import Enemy
 import math
 
 pygame.init()
+pygame.font.init()
 
 clock = pygame.time.Clock()
 size = width, height = 600, 600
@@ -14,6 +15,10 @@ pygame.display.set_caption("SantaInSpace")
 #pygame.image.load("Example.GIF")d
 #screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
 
+white = (255, 255, 255)
+green = (0, 255, 0)
+blue = (0, 0, 128)
+black = (0, 0, 0)
 
 R,G,B = 255,0,0
 x,y = 100,100
@@ -64,6 +69,9 @@ while True:
 
     enemies = enemies_active
 
+    FONT = pygame.font.Font("GAME_FONT.ttf", 40)
+
+    
 
     for i in bullets:
         pygame.draw.rect(screen, (i.RGB), (i.x, i.y, 10, 10))
@@ -71,8 +79,12 @@ while True:
 
     pygame.draw.rect(screen, (R,G,B), (player.x,player.y, player.width, player.width))
 
+    GAME_SCORE = FONT.render(str(f"Score: {score}"), True, green)
+
     print(f"Game Score: {score}")
 
+
+    screen.blit(GAME_SCORE, (0, 0))
 
     clock.tick(120)
     pygame.display.update() 
