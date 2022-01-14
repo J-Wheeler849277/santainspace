@@ -11,11 +11,11 @@
 
 - Eniola Balogun -Signed 14/01/2022
 
-- Kevin Camargo - ………………
+- Kevin Camargo - Signed 14/01/2022
 
 - Oliver Ellingham - Signed 14/01/2022
 
-- Harry Fletcher - ………………
+- Harry Fletcher - Signed 14/01/2022
 
 - Ryan Gray - Signed 14/01/2022
 
@@ -29,8 +29,8 @@
 
 - James Wheeler – Signed 14/01/2022
 
-- Pat Wigley - ………………
+- Pat Wigley - Signed 14/01/2022
 
 - Jack Williamson - 14/01/2022
 
-- Konrad Zajac - ………………
+- Konrad Zajac - Signed 14/01/2022
