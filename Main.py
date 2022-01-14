@@ -15,6 +15,8 @@ pygame.display.set_caption("Santa In Space - by TL1A")
 #pygame.image.load("Example.GIF")d
 #screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
 
+########################################### joe did this ############################
+
 white = (255, 255, 255)
 #green = (0, 255, 0)
 green = (110, 254, 23)
@@ -42,7 +44,7 @@ def user_note():
         "Changes & recommendations: \
                             "
     )
-
+############################################# joe did this #######################
 
 user_note()
 
