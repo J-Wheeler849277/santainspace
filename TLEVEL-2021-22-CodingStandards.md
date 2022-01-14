@@ -103,7 +103,7 @@ if isAdultMale(user_age, gender):
 An inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement. They should start with a # and a single space.<br />
 Inline comments are unnecessary and in fact, distracting if they state the obvious.<br />
 Do not do this:
-`x = x + 1                          # Increment x`
+`x = x + 1            # Increment x`
 
 #### Block Comments
 Block comments generally apply to some (or all) code that follows them and are indented to the same level as that code. Each line of a block comment starts with a # and a single space (unless it is indented text inside the comment).<br />
