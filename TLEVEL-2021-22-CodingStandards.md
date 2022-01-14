@@ -65,7 +65,18 @@ Commented out code decreases the readability of the code. Other programmers who 
 ## Conventions and style guide
 This is a fork of PEP 8 -- Style Guide for Python Code. If anything is not mentioned here please refer to the pep document:<br />https://www.python.org/dev/peps/pep-0008/
 ### Indentation
+
+- Use 4 spaces per indentation level.
+- Spaces are the preferred indentation method.
+- Tabs should be used solely to remain consistent with code that is already indented with tabs.
+- Python 3 disallows mixing the use of tabs and spaces for indentation.
+
+In your IDE, you should change the indentation method to 4 spaces.
+
+When invoking the Python 2 command line interpreter with the `-t` option, it issues warnings about code that illegally mixes tabs and spaces. When using `-tt` these warnings become errors. These options are highly recommended!
+
 ### Maximum line length
+Limit all lines to a maximum of 79 characters.
 ### Comments
 #### Do not use a comment when you can use a function or a variable.
 #### Inline comments
