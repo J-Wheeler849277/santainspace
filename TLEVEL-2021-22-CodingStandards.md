@@ -19,7 +19,22 @@ Having a clean code is critical while developing software; therefore, it is the 
 Most of the topics that covered in this section are available in a book called “Clean Code by Robert C. Martin”. It is a book that almost all software developers read. 
 
 ### Implications of having a bad code.
+A bad code will make it harder for developers to maintain the software in the future. Moreover, a bad code is more likely to contain more logical problems. Bad code also can decrease your productivity as a programmer; because you might spend a lot of time debugging and figuring out what you need to implement and where it needs to be implemented.
+
+Yes, you might spend some time to ensure that your code is clean, but a clean code will save you a lot of time, I promise. 
+
 ### What is a clean code?
+Here are some very well-known and deeply experienced programmers thought.
+
+**Bjarne Stroustrup, inventor of C++ and author of The C++ Programming Language:**
+> I like my code to be elegant and efficient. The logic should be straightforward to make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well.
+
+**Grady Booch, author of Object-Oriented Analysis and Design with Applications:**
+> Clean code is simple and direct. Clean code reads like well-written prose. Clean code never obscures the designer’s intent but rather is full of crisp abstractions and straightforward lines of control.
+
+**“Big” Dave Thomas, founder of OTI, the godfather of the Eclipse strategy**
+> Clean code can be read and enhanced by a developer other than its original author. It has unit and acceptance tests. It has meaningful names. It provides one way rather than many ways of doing one thing. It has minimal dependencies, which are explicitly defined, and provides a clear and minimal API. Code should be literate since depending on the language, not all necessary information can be expressed clearly in code alone.
+
 ### Smells of bad code.
 
 ## Conventions and style guide
