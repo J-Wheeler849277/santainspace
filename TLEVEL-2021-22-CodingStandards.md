@@ -65,7 +65,6 @@ Commented out code decreases the readability of the code. Other programmers who 
 ## Conventions and style guide
 This is a fork of PEP 8 -- Style Guide for Python Code. If anything is not mentioned here please refer to the pep document:<br />https://www.python.org/dev/peps/pep-0008/
 ### Indentation
-
 - Use 4 spaces per indentation level.
 - Spaces are the preferred indentation method.
 - Tabs should be used solely to remain consistent with code that is already indented with tabs.
@@ -78,8 +77,31 @@ When invoking the Python 2 command line interpreter with the `-t` option, it iss
 ### Maximum line length
 Limit all lines to a maximum of 79 characters.
 ### Comments
+Comments should be used only when necessary. Try to make the code self-explanatory instead of writing a comment when possible.
 #### Do not use a comment when you can use a function or a variable.
+Consider this code:
+```
+user_age = input("Input your age: ")
+gender = input("Input your gender: ")
+
+if user_age >= 18 and gender == "male": # Check if the person is an adult male
+   print("An adult male")
+```
+Would not be better if we replace the comment with a function:
+```
+user_age = input("Input your age: ")
+gender = input("Input your gender: ")
+
+def isAdultMale(age, gender):
+   return user_age >= 18 and gender == "male"
+
+if isAdultMale(user_age, gender):
+   print("An adult male")
+```
 #### Inline comments
+An inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement. They should start with a # and a single space.<br />
+Inline comments are unnecessary and in fact, distracting if they state the obvious. Do not do this:
+
 #### Block Comments
 ### Naming styles
 ### Names to Avoid
