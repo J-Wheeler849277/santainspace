@@ -29,7 +29,7 @@ score = 0
 def user_note():
     """NOTE TO USER: Put your name into "name" variable - Patrick"""
     
-    name = ""
+    name = "Hugh Janus"
     print(f"Tested by {name}")
     print("Changes & recommendations: \
                             ")
