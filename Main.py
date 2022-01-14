@@ -3,26 +3,26 @@ from Player import Player
 from Bullets import Bullet
 from Enemies import Enemy
 import math
-################################### mohamad made this ####################
+
 pygame.init()
 pygame.font.init()
 
 clock = pygame.time.Clock()
 size = width, height = 600, 600
 screen = pygame.display.set_mode(size)
-pygame.display.set_caption("SantaInSpace")
+pygame.display.set_caption("Santa In Space - by TL1A")
 
 #pygame.image.load("Example.GIF")d
 #screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
-###################### mohamad made this ################################
+
 white = (255, 255, 255)
 #green = (0, 255, 0)
 green = (110, 254, 23)
 blue = (0, 0, 128)
 black = (20, 20, 20)
 
-R,G,B = 255,0,0
-x,y = 100,100
+R, G, B = 127, 0, 255
+x, y = 100, 100
 
 player = Player([0, 0])
 bullets = []
@@ -32,7 +32,26 @@ gun_timer = 0
 
 score = 0
 
+
+def user_note():
+    """NOTE TO USER: Put your name into "name" variable - Patrick"""
+
+    name = "Jai"
+    print(f"Tested by {name}")
+    print(
+        "Changes & recommendations: \
+                            "
+    )
+
+
+user_note()
+
 while True:
+    player.y = 500
+    if player.x < 0:
+        player.x = 0
+    if player.x > 500:
+        player.x = 500
     key = pygame.key.get_pressed()
 
     for event in pygame.event.get():        
@@ -49,14 +68,12 @@ while True:
     player.update(key)
 
     gun_timer += 1
-    if event.type == pygame.MOUSEBUTTONDOWN and gun_timer > 4:
+    if event.type == pygame.MOUSEBUTTONDOWN and gun_timer > 5:
         gun_timer = 0
 
-        x,y = pygame.mouse.get_pos()
-        path = math.atan2(player.y - y, player.x - x) 
-        bullets.append(Bullet([player.x + (player.width/2), player.y], path + (6.2/2)))
-        
-        
+        x, y = pygame.mouse.get_pos()
+        path = math.atan2(player.y - y, player.x - x + 45)
+        bullets.append(Bullet([player.x + (player.width / 2), player.y], path + 3.1))
     enemies_active = []
     for i in enemies:
         pygame.draw.rect(screen, (255,255,255), (i.x, i.y, i.width, i.height))
@@ -77,17 +94,16 @@ while True:
     for i in bullets:
         pygame.draw.rect(screen, (i.RGB), (i.x, i.y, 10, 10))
         i.update()
-        pygame.time.wait(100)
-
     pygame.draw.rect(screen, (R,G,B), (player.x,player.y, player.width, player.width))
 
     GAME_SCORE = FONT.render(str(f"Score: {score}"), True, green)
- 
+    ENEMY_LIVES = FONT.render(str(f"Enemies: {len(enemies_active)}"), True, green)
+
     print(f"Game Score: {score}")
 
 
     screen.blit(GAME_SCORE, (10, 0))
-
+    screen.blit(ENEMY_LIVES, (375, 0))
     clock.tick(120)
     pygame.display.update() 
     print("good job")#eniola made this change#
