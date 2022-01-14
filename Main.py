@@ -36,7 +36,7 @@ print("kevin was here") #kevin made this#
 def user_note():
     """NOTE TO USER: Put your name into "name" variable - Patrick"""
 
-    name = "Jai"
+    name = "Oliver"
     print(f"Tested by {name}")
     print(
         "Changes & recommendations: \
