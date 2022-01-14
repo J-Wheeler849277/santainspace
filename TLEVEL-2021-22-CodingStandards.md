@@ -2,10 +2,13 @@
 *T level students 2021/2022*<br />
 
 **Contents**<br />
-[Introduction](TLEVEL-2021-22-CodingStandards.md#introduction)<br />
-[Clean Code](TLEVEL-2021-22-CodingStandards.md#clean-code)<br />
-[Conventions and style guide](TLEVEL-2021-22-CodingStandards.md#conventions-and-style-guide)<br />
-[Defensive Programming](TLEVEL-2021-22-CodingStandards.md#defensive-programming)<br />
+1. [Introduction](TLEVEL-2021-22-CodingStandards.md#introduction)<br />
+2. [Clean Code](TLEVEL-2021-22-CodingStandards.md#clean-code)<br />
+   - [Implications of having a bad code](TLEVEL-2021-22-CodingStandards.md#implications-of-having-a-bad-code)<br />
+   - [What is a clean code?](TLEVEL-2021-22-CodingStandards.md#what-is-a-clean-code)<br />
+   - [Smells of bad code](TLEVEL-2021-22-CodingStandards.md#smells-of-bad-code)<br />
+3. [Conventions and style guide](TLEVEL-2021-22-CodingStandards.md#conventions-and-style-guide)<br />
+4. [Defensive Programming](TLEVEL-2021-22-CodingStandards.md#defensive-programming)<br />
 
 ## Signatures
 [Signatures are located here](standards-signatures.md)
@@ -40,7 +43,6 @@ Here are some smells that if you see in a code, you can tell that it’s a bad c
 -**Redundant comments,** which comments which explain something obvious. You are writing code twice and forcing developers to read the code twice.  For example, this is a redundant comment:<br /> 
  `print("Final cost:" + total_cost) #Print final cost`<br />
 The comment above is unnecessary and redundant.
-![Example](/image-assests/Wood.jpg width="183" height="233")
 <img src="/image-assests/Wood.jpg" alt="" data-canonical-src="/image-assests/Wood.jpg" width="183" height="233" />
 
 
