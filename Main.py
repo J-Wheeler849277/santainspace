@@ -11,8 +11,13 @@ size = width, height = 600, 600
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("SantaInSpace")
 
+<<<<<<< HEAD
 # pygame.image.load("Example.GIF")d
 # screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
+=======
+#pygame.image.load("Example.GIF")
+#screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
+>>>>>>> 749f146a596b61f6bc386faecf44cf8488c99fa7
 
 
 R, G, B = 255, 0, 0
@@ -26,7 +31,21 @@ gun_timer = 0
 
 score = 0
 
+def user_note():
+    """NOTE TO USER: Put your name into "name" variable - Patrick"""
+    
+    name = "Hugh Janus"
+    print(f"Tested by {name}")
+    print("Changes & recommendations: \
+                            ")
+
+
+user_note()
+
 while True:
+    player.y=500
+    if player.x < 0: player.x= 0
+    if player.x > 500: player.x= 500
     key = pygame.key.get_pressed()
 
     for event in pygame.event.get():
