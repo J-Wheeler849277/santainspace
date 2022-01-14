@@ -21,8 +21,13 @@ green = (110, 254, 23)
 blue = (0, 0, 128)
 black = (20, 20, 20)
 
+<<<<<<< HEAD
 R,G,B = 255,0,0
 x,y = 100,100
+=======
+R, G, B = 0, 0, 255
+x, y = 100, 100
+>>>>>>> 90927debf6d4af3e8a20d2da3208924482b4d37e
 
 player = Player([0, 0])
 bullets = []
@@ -32,7 +37,30 @@ gun_timer = 0
 
 score = 0
 
+<<<<<<< HEAD
 while True:
+=======
+
+def user_note():
+    """NOTE TO USER: Put your name into "name" variable - Patrick"""
+
+    name = "Jai"
+    print(f"Tested by {name}")
+    print(
+        "Changes & recommendations: \
+                            "
+    )
+
+
+user_note()
+
+while True:
+    player.y = 500
+    if player.x < 0:
+        player.x = 0
+    if player.x > 500:
+        player.x = 500
+>>>>>>> 90927debf6d4af3e8a20d2da3208924482b4d37e
     key = pygame.key.get_pressed()
 
     for event in pygame.event.get():        
@@ -49,6 +77,7 @@ while True:
     player.update(key)
 
     gun_timer += 1
+<<<<<<< HEAD
     if event.type == pygame.MOUSEBUTTONDOWN and gun_timer > 4:
         gun_timer = 0
 
@@ -57,6 +86,14 @@ while True:
         bullets.append(Bullet([player.x + (player.width/2), player.y], path + (6.2/2)))
         
         
+=======
+    if event.type == pygame.MOUSEBUTTONDOWN and gun_timer > 5:
+        gun_timer = 0
+
+        x, y = pygame.mouse.get_pos()
+        path = math.atan2(player.y - y, player.x - x + 45)
+        bullets.append(Bullet([player.x + (player.width / 2), player.y], path + 3.1))
+>>>>>>> 90927debf6d4af3e8a20d2da3208924482b4d37e
     enemies_active = []
     for i in enemies:
         pygame.draw.rect(screen, (255,255,255), (i.x, i.y, i.width, i.height))
