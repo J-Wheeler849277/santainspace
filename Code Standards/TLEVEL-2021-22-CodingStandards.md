@@ -37,7 +37,7 @@ A bad code will make it harder for developers to maintain the software in the fu
 Yes, you might spend some time to ensure that your code is clean, but a clean code will save you a lot of time, I promise. 
 
 ### What is a clean code?
-Here are some very well-known and deeply experienced programmers thought.
+Here are some very well-known and deeply experienced programmers thoughts.
 
 **Bjarne Stroustrup, inventor of C++ and author of The C++ Programming Language:**
 > I like my code to be elegant and efficient. The logic should be straightforward to make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well.
@@ -92,7 +92,7 @@ Would not be better if we replace the comment with a function:
 user_age = input("Input your age: ")
 gender = input("Input your gender: ")
 
-def isAdultMale(age, gender):
+def isAdultMale(user_age, gender):
    return user_age >= 18 and gender == "male"
 
 if isAdultMale(user_age, gender):
