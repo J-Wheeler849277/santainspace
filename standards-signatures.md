@@ -13,13 +13,13 @@
 
 - Kevin Camargo - ………………
 
-- Oliver Ellingham - ………………
+- Oliver Ellingham - Signed 14/01/2022
 
 - Harry Fletcher - ………………
 
 - Ryan Gray - Signed 14/01/2022
 
-- Jake Grice - ………………
+- Jake Grice - Signed 14/01/2022
 
 - Dillon Mackney - Signed 14/01/2022
 
