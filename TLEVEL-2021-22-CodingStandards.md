@@ -2,9 +2,9 @@
 *T level students 2021/2022*<br />
 
 **Contents**<br />
-[Introduction](TLEVEL-2021-22-CodingStandards.md#introduction)<br />
-[Clean Code](TLEVEL-2021-22-CodingStandards.md#clean-code)<br />
-- [Implications of having a bad code](TLEVEL-2021-22-CodingStandards.md#implications-of-having-a-bad-code)<br />
+1. [Introduction](TLEVEL-2021-22-CodingStandards.md#introduction)<br />
+2. [Clean Code](TLEVEL-2021-22-CodingStandards.md#clean-code)<br />
+   - [Implications of having a bad code](TLEVEL-2021-22-CodingStandards.md#implications-of-having-a-bad-code)<br />
 [Conventions and style guide](TLEVEL-2021-22-CodingStandards.md#conventions-and-style-guide)<br />
 [Defensive Programming](TLEVEL-2021-22-CodingStandards.md#defensive-programming)<br />
 
