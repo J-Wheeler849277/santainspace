@@ -12,11 +12,11 @@ size = width, height = 600, 600
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("SantaInSpace")
 
-#pygame.image.load("Example.GIF")d
-#screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
+# pygame.image.load("Example.GIF")d
+# screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
 
 white = (255, 255, 255)
-#green = (0, 255, 0)
+green = (0, 255, 0)
 green = (110, 254, 23)
 blue = (0, 0, 128)
 black = (20, 20, 20)
@@ -54,16 +54,15 @@ while True:
         player.x = 500
     key = pygame.key.get_pressed()
 
-    for event in pygame.event.get():        
-        if event.type == pygame.QUIT:       
-            pygame.quit()                   
-            sys.exit()   
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
 
-    screen.fill((0,0,0))
+    screen.fill((0, 0, 0))
 
     if len(enemies) <= 4:
         enemies.append(Enemy())
-
 
     player.update(key)
 
@@ -76,33 +75,31 @@ while True:
         bullets.append(Bullet([player.x + (player.width / 2), player.y], path + 3.1))
     enemies_active = []
     for i in enemies:
-        pygame.draw.rect(screen, (255,255,255), (i.x, i.y, i.width, i.height))
-        
+        pygame.draw.rect(screen, (255, 255, 255), (i.x, i.y, i.width, i.height))
+
         if i.update(bullets):
             score += 1
 
         if not i.dead:
             enemies_active.append(i)
-        
 
     enemies = enemies_active
-
-    FONT = pygame.font.Font("GAME_FONT.ttf", 40)
-
-    
+    path_font = "C:/Users/829138/OneDrive - Derby College/College_Docs/Unit 3/santainspace/GAME_FONT.ttf"
+    FONT = pygame.font.Font(path_font, 40)
 
     for i in bullets:
         pygame.draw.rect(screen, (i.RGB), (i.x, i.y, 10, 10))
         i.update()
-    pygame.draw.rect(screen, (R,G,B), (player.x,player.y, player.width, player.width))
+    pygame.draw.rect(
+        screen, (R, G, B), (player.x, player.y, player.width, player.width)
+    )
 
     GAME_SCORE = FONT.render(str(f"Score: {score}"), True, green)
     ENEMY_LIVES = FONT.render(str(f"Enemies: {len(enemies_active)}"), True, green)
 
     print(f"Game Score: {score}")
 
-
     screen.blit(GAME_SCORE, (10, 0))
     screen.blit(ENEMY_LIVES, (375, 0))
     clock.tick(120)
-    pygame.display.update() 
+    pygame.display.update()
