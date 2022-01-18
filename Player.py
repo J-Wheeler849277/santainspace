@@ -11,10 +11,14 @@ class Player:
 
     def update(self, key):
         
+
+        
+
         if key[pygame.K_a]:
             self.x -= self.speed
         elif key[pygame.K_d]:
             self.x += self.speed
+
 
 
         if self.y <= 600 - self.width and not self.jumping:

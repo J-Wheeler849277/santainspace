@@ -4,13 +4,14 @@ from Bullets import Bullet
 from Enemies import Enemy
 import math
 
+# Importing librarys
 pygame.init()
 pygame.font.init()
 
 clock = pygame.time.Clock()
 size = width, height = 600, 600
 screen = pygame.display.set_mode(size)
-pygame.display.set_caption("SantaInSpace")
+pygame.display.set_caption("Santa In Space - by TL1A")
 
 # pygame.image.load("Example.GIF")d
 # screen.blit(texture, (x, y), (imageX, imageY, ImageW, ImageH))
@@ -21,7 +22,7 @@ green = (110, 254, 23)
 blue = (0, 0, 128)
 black = (20, 20, 20)
 
-R, G, B = 0, 0, 255
+R, G, B = 127, 0, 255
 x, y = 100, 100
 
 player = Player([0, 0])
@@ -31,12 +32,13 @@ enemies = []
 gun_timer = 0
 
 score = 0
+print("kevin was here")  # kevin made this#
 
 
 def user_note():
     """NOTE TO USER: Put your name into "name" variable - Patrick"""
 
-    name = "Jai"
+    name = "Oliver"
     print(f"Tested by {name}")
     print(
         "Changes & recommendations: \
@@ -103,3 +105,4 @@ while True:
     screen.blit(ENEMY_LIVES, (375, 0))
     clock.tick(120)
     pygame.display.update()
+    print("good job")  # eniola made this change#
